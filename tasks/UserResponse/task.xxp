@@ -1,0 +1,33 @@
+task UserResponse {
+    implementation "UserResponse/task.py";
+
+    define param accept_string {
+        type String;
+        default "accept";
+        enum("accept","yes","ok");
+    }
+
+    define param reject_string {
+        type String;
+        default "reject";
+        enum("reject","no","cancel");
+    }
+
+    define param case_sensitive {
+        type String;
+        default "false";
+        enum("true","false");
+    }
+
+    define param default_response {
+        type String;
+        default "none";
+        enum("accept","reject","none");
+    }
+
+    define metric result_key {    
+        //semanticType ML_Accuracy;    
+        kind single-value;    
+        type String;
+    }
+}
