@@ -4,17 +4,11 @@ task DetectAlert {
     python_version "3.9";
 
     define input data ModelFile;
-    
-    define metric recheckedNumber {
-        // semanticType ML_Accuracy;
-        kind single-value;
-        type double;
-    }
 
     define metric INFERENCE_TIME {
         //semanticType ML_Accuracy;
         kind single-value;
-        type String;
+        type string;
     }
 
 }

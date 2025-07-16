@@ -4,6 +4,7 @@ task SelectUsers {
     python_version "3.9";
 
     define input data UsersInfo;
+    define output data transmittedmsg;
 
     define param num_users_selection {
         type Integer;
@@ -50,8 +51,7 @@ task SelectUsers {
     define metric OSRM_RESULTS {
         //semanticType ML_Accuracy;
         kind single-value;
-        type String;
+        type string;
     }
 
-    define output data transmittedmsg;
 }

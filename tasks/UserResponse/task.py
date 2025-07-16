@@ -37,4 +37,4 @@ if __name__ == "__main__":
     manager = UserResponse()
     accepted = manager.check_user_response(user_resp)
 
-    resultMap.put("USER_RESPONSE_ACCEPTED", accepted)
+    resultMap.put("USER_RESPONSE_ACCEPTED", str(accepted))

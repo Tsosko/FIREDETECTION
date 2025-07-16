@@ -25,9 +25,9 @@ task UserResponse {
         enum("accept","reject","none");
     }
 
-    define metric result_key {    
+    define metric USER_RESPONSE_ACCEPTED {    
         //semanticType ML_Accuracy;    
         kind single-value;    
-        type String;
+        type boolean;
     }
 }

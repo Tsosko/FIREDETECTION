@@ -153,5 +153,5 @@ if __name__ == '__main__':
         num_users=NUM_USERS_SELECTION
     )
 
-    resultMap.put("SELECTED_USERS", selected_users)
-    resultMap.put("OSRM_RESULTS", osrm_results_map)
+    resultMap.put("SELECTED_USERS", json.dumps(selected_users))
+    resultMap.put("OSRM_RESULTS", json.dumps(osrm_results_map))

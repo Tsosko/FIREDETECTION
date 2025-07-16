@@ -18,10 +18,10 @@ DATA_ABSTRACTION_ACCESS_TOKEN = '72fcd93c8e91c9a4704f80754369c1dba25e2ecb'
 
 PROACTIVE_PYTHON_VERSIONS = {"3.8": "/usr/bin/python3.8", "3.9": "/usr/bin/python3.9"}
 
-DATASET_MANAGEMENT = "DDM"
-DDM_URL = "https://ddm.extremexp-icom.intracom-telecom.com"
-PORTAL_USERNAME = "drouglazet"
-PORTAL_PASSWORD = "Alphazero1?"
+DATASET_MANAGEMENT = "LOCAL"
+# DDM_URL = "https://ddm.extremexp-icom.intracom-telecom.com"
+# PORTAL_USERNAME = "drouglazet"
+# PORTAL_PASSWORD = "Alphazero1?"
 
 # logging configuration, optional; if not set, all loggers have INFO level
 LOGGING_CONFIG = {
